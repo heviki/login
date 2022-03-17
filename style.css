@@ -23,7 +23,7 @@ body {
   width: 350px;
   padding: 0px;
   border-radius: 10px;
-  box-shadow: 3px 3px 3px #1dc473;
+  box-shadow: 2px 2px 0px #1dc473;
 }
 
 .login-form {
