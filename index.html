@@ -9,22 +9,50 @@
 </head>
 <body>
   <div class="box">
-    <div class="login-area">
+    <section class="image-area">
+      <img src="images/image.png" alt="image">
+    </section>
+
+    <section class="login-area">
       <div class="login-box">
         <h1 class="login-title">Login</h1>
 
         <form action="." class="login-form">
-          <div class="login-form-text"><p>Email</p><div style="color:#db270b;">*</div></div>
-          <input class="login-form-input" type="email" name="email" placeholder="name@email.com" autofocus>
-          <div class="login-form-text"><p>Senha</p><div style="color:#db270b;">*</div></div>
-          <input class="login-form-input" type="password" name="password" placeholder="">
+
+          <div class="login-form-text">
+            <p>Email</p><div style="color:#db270b;">*</div>
+          </div>
+          <input class="login-form-input" type="email" name="email" placeholder="name@email.com">
+
+          <div class="login-form-text">
+            <p>Senha</p><div style="color:#db270b;">*</div>
+          </div>
+          <input class="login-form-input" type="password" name="password">
+
+          <div class="login-form-options">
+
+            <div class="login-form-save">
+              <input class="login-form-checkbox" type="checkbox" name="saveaccount">
+              <p>Lembrar conta</p>
+            </div>
+
+            <div class="login-form-help">
+              <a href="">Precisa de ajuda?</a>
+            </div>
+
+          </div>
+
           <div class="login-form-buttonalign">
             <input type="submit" value="Entrar" class="login-form-button">
           </div>
+          
         </form>
-        <p class="login-newacc">Ainda não tem uma conta? <a href="">Criar uma conta</a></p>
-      </div>
+
+        <p class="login-newacc">
+          Ainda não tem uma conta? <a href="">Criar uma conta</a>
+        </p>
+      </section>
     </div>
-  </section>
+  </div>
 </body>
 </html>

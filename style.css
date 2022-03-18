@@ -68,6 +68,32 @@ body {
   transition: 0.5s;
 }
 
+.login-form-options {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 0%;
+  gap: 29%;
+}
+
+.login-form-save {
+  display: flex;
+  align-items: center;
+}
+.login-form-save p {
+  font-size: 0.9em;
+}
+
+.login-form-checkbox {
+  accent-color: #0cebeb;
+}
+
+.login-form-help a{
+  text-decoration: none;
+  font-size: 0.9em;
+  color: #146e42;
+}
+
 .login-form-buttonalign {
   width: 100%;
   display: flex;
@@ -107,4 +133,14 @@ body {
 .login-newacc a {
   color: #146e42;
   text-decoration: none;
+}
+
+.image-area{
+  width: 50%;
+  height: 100%;
+}
+
+.image-area img {
+  height: 100%;
+  border-radius: 15px 0px 0px 15px;
 }
